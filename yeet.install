@@ -1,6 +1,10 @@
-# pre_install() {}
+pre_install() {
+  :
+}
 
-# post_install() {}
+post_install() {
+  :
+}
 
 pre_upgrade() {
   systemctl stop yeetd
